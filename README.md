@@ -13,3 +13,11 @@
 * Python - More Classes and Objects
 * Python - Everything is object
 * Python - Inheritance
+* Python - Input/Output
+* SQL - Introduction
+* SQL - More queries
+* Python - Network #0
+* Python - Network #1
+* Python - Test-driven development
+* Python - Almost a circle
+* Python - Object-relational mapping
