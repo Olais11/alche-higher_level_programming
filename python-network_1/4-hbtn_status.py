@@ -1,15 +1,13 @@
 #!/usr/bin/python3
-"""Fetches url
-using the request moduel
+"""
+Python script that fetches an URL with requests package
 """
 import requests
 
 
-if _name_ == "_main_":
-    url = 'https://intranet.hbtn.io/status'
-    if url.startswith('https://'):
-        url = "https://alu-intranet.hbtn.io/status"
-    res = requests.get(url)
-    print("Body response:")
-    print("\t- type: {}".format(type(res.text)))
-    print("\t- content: {}".format(res.text))
+if __name__ == "__main__":
+    r = 'https://intranet.hbtn.io/status'
+    if r.startswith('https://'):
+        r = "https://alu-intranet.hbtn.io/status"
+    t = requests.get(r).text
+    print('Body response:\n\t- type: {}\n\t- content: {}'.format(type(t), t))
